@@ -30,7 +30,7 @@ class TCPServer:
     
     # host 주소는 외부 IP 접근의 허용을 위해 '0.0.0.0' 으로 설정합니다.
     # port 주소는 임의로 9999 를 설정합니다.
-    def __init__(self, host='127.0.0.1', port=9999):
+    def __init__(self, host='0.0.0.0', port=9999):
         self.host = host
         self.port = port
 
